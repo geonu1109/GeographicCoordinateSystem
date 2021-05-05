@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79120321264306D1008F4B3D /* libGeographicCoordinateSystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79446EB32642F3A70004D465 /* libGeographicCoordinateSystem.a */; };
+		7912032B264306EB008F4B3D /* PlaneAngleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912032A264306EB008F4B3D /* PlaneAngleTests.swift */; };
+		7912033B26430C15008F4B3D /* GeographicPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912033A26430C15008F4B3D /* GeographicPointTests.swift */; };
+		79446ED32642FF5B0004D465 /* GeographicPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79446ED22642FF5B0004D465 /* GeographicPoint.swift */; };
+		79446EDA2642FFD00004D465 /* Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79446ED92642FFD00004D465 /* Length.swift */; };
+		79446EDE264301A30004D465 /* PlaneAngle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79446EDD264301A30004D465 /* PlaneAngle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79120322264306D1008F4B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79446EAB2642F3A70004D465 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79446EB22642F3A70004D465;
+			remoteInfo = GeographicCoordinateSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79446EB12642F3A70004D465 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7912031C264306D1008F4B3D /* GeographicCoordinateSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeographicCoordinateSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79120320264306D1008F4B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7912032A264306EB008F4B3D /* PlaneAngleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneAngleTests.swift; sourceTree = "<group>"; };
+		7912033A26430C15008F4B3D /* GeographicPointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeographicPointTests.swift; sourceTree = "<group>"; };
+		79446EB32642F3A70004D465 /* libGeographicCoordinateSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGeographicCoordinateSystem.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79446ED22642FF5B0004D465 /* GeographicPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeographicPoint.swift; sourceTree = "<group>"; };
+		79446ED92642FFD00004D465 /* Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Length.swift; sourceTree = "<group>"; };
+		79446EDD264301A30004D465 /* PlaneAngle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneAngle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79120319264306D1008F4B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79120321264306D1008F4B3D /* libGeographicCoordinateSystem.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79446EB02642F3A70004D465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7912031D264306D1008F4B3D /* GeographicCoordinateSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				79120329264306DD008F4B3D /* BaseUnit */,
+				79120320264306D1008F4B3D /* Info.plist */,
+				7912033A26430C15008F4B3D /* GeographicPointTests.swift */,
+			);
+			path = GeographicCoordinateSystemTests;
+			sourceTree = "<group>";
+		};
+		79120329264306DD008F4B3D /* BaseUnit */ = {
+			isa = PBXGroup;
+			children = (
+				7912032A264306EB008F4B3D /* PlaneAngleTests.swift */,
+			);
+			path = BaseUnit;
+			sourceTree = "<group>";
+		};
+		79446EAA2642F3A70004D465 = {
+			isa = PBXGroup;
+			children = (
+				79446EB52642F3A70004D465 /* GeographicCoordinateSystem */,
+				7912031D264306D1008F4B3D /* GeographicCoordinateSystemTests */,
+				79446EB42642F3A70004D465 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79446EB42642F3A70004D465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79446EB32642F3A70004D465 /* libGeographicCoordinateSystem.a */,
+				7912031C264306D1008F4B3D /* GeographicCoordinateSystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79446EB52642F3A70004D465 /* GeographicCoordinateSystem */ = {
+			isa = PBXGroup;
+			children = (
+				79446EDC264301660004D465 /* BaseUnit */,
+				79446ED22642FF5B0004D465 /* GeographicPoint.swift */,
+			);
+			path = GeographicCoordinateSystem;
+			sourceTree = "<group>";
+		};
+		79446EDC264301660004D465 /* BaseUnit */ = {
+			isa = PBXGroup;
+			children = (
+				79446ED92642FFD00004D465 /* Length.swift */,
+				79446EDD264301A30004D465 /* PlaneAngle.swift */,
+			);
+			path = BaseUnit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7912031B264306D1008F4B3D /* GeographicCoordinateSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79120326264306D1008F4B3D /* Build configuration list for PBXNativeTarget "GeographicCoordinateSystemTests" */;
+			buildPhases = (
+				79120318264306D1008F4B3D /* Sources */,
+				79120319264306D1008F4B3D /* Frameworks */,
+				7912031A264306D1008F4B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79120323264306D1008F4B3D /* PBXTargetDependency */,
+			);
+			name = GeographicCoordinateSystemTests;
+			productName = GeographicCoordinateSystemTests;
+			productReference = 7912031C264306D1008F4B3D /* GeographicCoordinateSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79446EB22642F3A70004D465 /* GeographicCoordinateSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79446EBA2642F3A70004D465 /* Build configuration list for PBXNativeTarget "GeographicCoordinateSystem" */;
+			buildPhases = (
+				79446EAF2642F3A70004D465 /* Sources */,
+				79446EB02642F3A70004D465 /* Frameworks */,
+				79446EB12642F3A70004D465 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeographicCoordinateSystem;
+			productName = GeographicCoordinateSystem;
+			productReference = 79446EB32642F3A70004D465 /* libGeographicCoordinateSystem.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79446EAB2642F3A70004D465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7912031B264306D1008F4B3D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					79446EB22642F3A70004D465 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 79446EAE2642F3A70004D465 /* Build configuration list for PBXProject "GeographicCoordinateSystem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79446EAA2642F3A70004D465;
+			productRefGroup = 79446EB42642F3A70004D465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79446EB22642F3A70004D465 /* GeographicCoordinateSystem */,
+				7912031B264306D1008F4B3D /* GeographicCoordinateSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7912031A264306D1008F4B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79120318264306D1008F4B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7912032B264306EB008F4B3D /* PlaneAngleTests.swift in Sources */,
+				7912033B26430C15008F4B3D /* GeographicPointTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79446EAF2642F3A70004D465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79446EDA2642FFD00004D465 /* Length.swift in Sources */,
+				79446EDE264301A30004D465 /* PlaneAngle.swift in Sources */,
+				79446ED32642FF5B0004D465 /* GeographicPoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79120323264306D1008F4B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79446EB22642F3A70004D465 /* GeographicCoordinateSystem */;
+			targetProxy = 79120322264306D1008F4B3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79120324264306D1008F4B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RLAPP4W9Y;
+				INFOPLIST_FILE = GeographicCoordinateSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = name.geonu.GeographicCoordinateSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		79120325264306D1008F4B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RLAPP4W9Y;
+				INFOPLIST_FILE = GeographicCoordinateSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = name.geonu.GeographicCoordinateSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		79446EB82642F3A70004D465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79446EB92642F3A70004D465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79446EBB2642F3A70004D465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RLAPP4W9Y;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		79446EBC2642F3A70004D465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RLAPP4W9Y;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79120326264306D1008F4B3D /* Build configuration list for PBXNativeTarget "GeographicCoordinateSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79120324264306D1008F4B3D /* Debug */,
+				79120325264306D1008F4B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79446EAE2642F3A70004D465 /* Build configuration list for PBXProject "GeographicCoordinateSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79446EB82642F3A70004D465 /* Debug */,
+				79446EB92642F3A70004D465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79446EBA2642F3A70004D465 /* Build configuration list for PBXNativeTarget "GeographicCoordinateSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79446EBB2642F3A70004D465 /* Debug */,
+				79446EBC2642F3A70004D465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79446EAB2642F3A70004D465 /* Project object */;
+}
